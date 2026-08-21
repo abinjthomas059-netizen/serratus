@@ -546,7 +546,7 @@ export default function App() {
           </div>
 
           <div className="feature-strip">
-            <div className="feature-item"><Target size={22} /><div className="feature-item-label">Personalized<br /><b>Training Plan</b></div></div>
+            <div className="feature-item"><Target size={22} /><div className="feature-item-label">Personalised<br /><b>Training Plan</b></div></div>
             <div className="feature-item"><UtensilsCrossed size={22} /><div className="feature-item-label">Custom Nutrition<br /><b>Guidance</b></div></div>
             <div className="feature-item"><TrendingUp size={22} /><div className="feature-item-label">Progress Tracking &<br /><b>Accountability</b></div></div>
             <div className="feature-item"><MessageCircle size={22} /><div className="feature-item-label">  24/7<br /><b>Support</b></div></div>
@@ -626,7 +626,7 @@ export default function App() {
         <div className="wrap">
           <Reveal className="section-head">
             <div>
-              <span className="section-num mono"><Mark size={12} /> How Serratus coaches</span>
+              <span className="section-num mono"><Mark size={12} /> How Serratus trains</span>
               <h2 className="section-title display">The approach</h2>
             </div>
           </Reveal>
@@ -634,8 +634,8 @@ export default function App() {
             <div className="approach-grid">
               <div className="approach-card">
                 <div className="approach-icon"><Target size={20} /></div>
-                <div className="approach-title">Personalized Programming</div>
-                <p className="approach-text">Every plan is tailored to your goals, equipment, and starting point - whether your focus is strength, fat loss, or muscle building. No templates, just personalized coaching.</p>
+                <div className="approach-title">Personalised Programming</div>
+                <p className="approach-text">Every plan is tailored to your goals, equipment, and starting point - whether your focus is strength, fat loss, or muscle building. No templates, just personalised coaching.</p>
               </div>
               <div className="approach-card">
                 <div className="approach-icon"><UtensilsCrossed size={20} /></div>
@@ -662,15 +662,15 @@ export default function App() {
         <div className="wrap">
           <Reveal className="section-head">
             <div>
-              <span className="section-num mono"><Mark size={12} /> Getting started</span>
+              <span className="section-num mono"><Mark size={12} /> Getting Started</span>
               <h2 className="section-title display">How it works</h2>
             </div>
           </Reveal>
           <Reveal>
             <div className="steps">
               <div className="step"><div className="step-num">01</div><div className="step-title">Apply</div><div className="step-text">Send your goals, background, and where you're training from — takes two minutes.</div></div>
-              <div className="step"><div className="step-num">02</div><div className="step-title">Free Consultation</div><div className="step-text">A short call with Nevin to talk through your goals, constraints, and what a plan for you would look like.</div></div>
-              <div className="step"><div className="step-num">03</div><div className="step-title">Custom Plan Built</div><div className="step-text">Your training and nutrition plan is built around your equipment, schedule, and starting point.</div></div>
+              <div className="step"><div className="step-num">02</div><div className="step-title">Free Consultation</div><div className="step-text">A short call with us to talk through your goals, constraints, and what a plan for you would look like.</div></div>
+              <div className="step"><div className="step-num">03</div><div className="step-title">Tailored Plan</div><div className="step-text">Your training and nutrition plan is built around your equipment, schedule, and starting point.</div></div>
               <div className="step"><div className="step-num">04</div><div className="step-title">Start Training</div><div className="step-text">Train with ongoing check-ins, progress tracking, and 24/7 support as the plan adapts to you.</div></div>
             </div>
           </Reveal>
@@ -683,7 +683,7 @@ export default function App() {
           <Reveal className="section-head">
             <div>
               <span className="section-num mono"><Mark size={12} /> No Cost, No Commitment</span>
-              <h2 className="section-title display">Book a free consultation</h2>
+              <h2 className="section-title display">Book a free Consultation</h2>
             </div>
           </Reveal>
 
@@ -697,15 +697,14 @@ export default function App() {
                 <div className="consult-list-item"><CheckCircle2 size={16} /> 100% online coaching, from anywhere, serving clients across six countries and counting.</div>
                 <div className="consult-list-item"><CheckCircle2 size={16} /> No obligation - The consultation is completely free, with no obligation to sign up</div>
                 <div className="consult-list-item"><CheckCircle2 size={16} /> Rehab-informed and special-population friendly, if that applies to you</div>
-                <div className="consult-list-item"><CheckCircle2 size={16} /> Usually a reply within 24 hours</div>
               </div>
 
               <div className="direct-contacts">
                 <a className="direct-contact" href="mailto:nevinantos363@gmail.com">
                   <Mail size={18} /><span><span className="label">Email</span><span className="value">nevinantos363@gmail.com</span></span>
                 </a>
-                <a className="direct-contact" href="tel:+917356110981">
-                  <Phone size={18} /><span><span className="label">Phone / WhatsApp</span><span className="value">+91 73569 10981</span></span>
+                <a className="direct-contact" href="tel:+91 7356110981">
+                  <Phone size={18} /><span><span className="label">Phone / WhatsApp</span><span className="value">+91 73561 10981</span></span>
                 </a>
                 <a className="direct-contact" href="https://instagram.com/serratus.inc" target="_blank" rel="noreferrer">
                   <Instagram size={18} /><span><span className="label">Instagram</span><span className="value">@serratus.inc</span></span>
@@ -718,7 +717,7 @@ export default function App() {
                 {submitted && (
                   <div className="success-box">
                     <CheckCircle2 size={18} />
-                    Your email app should be open with the details filled in — send it and Nevin will reply within 24 hours.
+                    Your email app should be open with the details filled in.
                   </div>
                 )}
                 <div className="form-row">
