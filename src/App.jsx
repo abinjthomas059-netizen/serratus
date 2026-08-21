@@ -425,7 +425,7 @@ export default function App() {
         .approach-text { color:var(--bone-dim); font-size:14px; line-height:1.6; }
 
         /* stats */
-        .stat-grid { display:grid; grid-template-columns:repeat(4,1fr); border-top:1px solid var(--line); border-left:1px solid var(--line); }
+        .stat-grid { display:grid; grid-template-columns:repeat(4,1fr); border-top:1px solid var(--line); border-left:1px solid var(--line); border-right:1px solid var(--line); border-bottom:1px solid var(--line); }
         @media (max-width:720px){ .stat-grid{ grid-template-columns:repeat(2,1fr); } }
         .stat { padding:26px 20px 20px 20px; border-right:1px solid var(--line); border-bottom:1px solid var(--line); }
         .stat:nth-child(4n) { border-right:none; }
