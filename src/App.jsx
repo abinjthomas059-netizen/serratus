@@ -269,7 +269,7 @@ export default function App() {
         .hero { min-height:100vh; display:flex; flex-direction:column; justify-content:center; padding-top:120px; padding-bottom:60px; position:relative; }
         @media (max-width:640px){ .hero{ justify-content:flex-start; padding-top:96px; } }
         .hero-side-card {
-        position:absolute; right:56px; top:50%; transform:translateY(-50%);
+        position:absolute; right:max(56px, calc((100vw - 1200px) / 2 + 40px)); top:50%; transform:translateY(-50%);
         width:240px; background:var(--surface); border:1px solid var(--line); border-radius:18px;
         padding:8px 28px; z-index:1; opacity:0;
         transition:opacity .9s ease .7s, transform .9s ease .7s;
