@@ -269,15 +269,16 @@ export default function App() {
         .hero { min-height:100vh; display:flex; flex-direction:column; justify-content:center; padding-top:120px; padding-bottom:60px; position:relative; }
         @media (max-width:640px){ .hero{ justify-content:flex-start; padding-top:96px; } }
         .hero-side-card {
-          position:absolute; right:56px; top:50%; transform:translateY(-50%);
-          width:260px; background:var(--surface); border:1px solid var(--line); border-radius:18px;
-          padding:26px; z-index:1; opacity:0; transition:opacity .9s ease .7s, transform .9s ease .7s;
+        position:absolute; right:56px; top:50%; transform:translateY(-50%);
+        width:240px; background:var(--surface); border:1px solid var(--line); border-radius:18px;
+        padding:8px 28px; z-index:1; opacity:0;
+        transition:opacity .9s ease .7s, transform .9s ease .7s;
         }
         .mounted .hero-side-card { opacity:1; }
-        .hero-side-card .row { display:flex; justify-content:space-between; align-items:baseline; padding:14px 0; border-top:1px solid var(--line); }
+        .hero-side-card .row { display:flex; flex-direction:column; align-items:center; text-align:center; padding:22px 0; border-top:1px solid var(--line); }
         .hero-side-card .row:first-child { border-top:none; }
-        .hero-side-card .row .num { font-family:'Archivo',sans-serif; font-weight:900; font-size:26px; color:var(--gold-bright); }
-        .hero-side-card .row .lbl { font-family:'IBM Plex Mono',monospace; font-size:11px; color:var(--bone-dim); text-transform:uppercase; letter-spacing:0.05em; text-align:right; max-width:130px; }
+        .hero-side-card .row .num { font-family:'Archivo',sans-serif; font-weight:900; font-size:32px; color:var(--gold-bright); }
+        .hero-side-card .row .lbl { margin-top:6px; font-family:'IBM Plex Mono',monospace; font-size:10.5px; color:var(--bone-dim); text-transform:uppercase; letter-spacing:0.05em; text-align:center; max-width:none; }
         @media (max-width:1180px){ .hero-side-card{ display:none; } }
         .hero-mark-bg { position:absolute; right:-4vw; top:50%; transform:translateY(-50%); color:var(--gold); opacity:0.10; z-index:0; }
 
