@@ -355,7 +355,7 @@ export default function App() {
         .btn-ghost:hover { border-color:var(--gold); transform:translateY(-2px); }
 
         /* feature strip */
-        .feature-strip { margin-top:72px; display:grid; grid-template-columns:repeat(5,1fr); border-top:1px solid var(--line); opacity:0; transform:translateY(16px); transition:opacity .8s ease .68s, transform .8s ease .68s; }
+        feature-strip { margin-top:72px; display:grid; grid-template-columns:repeat(5,1fr); border-top:1px solid var(--line); border-bottom:1px solid var(--line); opacity:0; transform:translateY(16px); transition:opacity .8s ease .68s, transform .8s ease .68s; }
         .mounted .feature-strip { opacity:1; transform:translateY(0); }
         @media (max-width:900px){ .feature-strip{ grid-template-columns:repeat(2,1fr); } }
         .feature-item { padding:22px 14px 0 0; border-right:1px solid var(--line); }
