@@ -527,9 +527,9 @@ export default function App() {
           </p>
 
           <div className="hero-mobile-stats">
-            <div className="stat-block"><span className="num">150+</span><span className="lbl">Clients coached</span></div>
-            <div className="stat-block"><span className="num">6+</span><span className="lbl">Countries reached</span></div>
-            <div className="stat-block"><span className="num">4+</span><span className="lbl">Years coaching</span></div>
+            <div className="stat-block"><span className="num"> 150+</span><span className="lbl">Clients coached</span></div>
+            <div className="stat-block"><span className="num"> 6+</span><span className="lbl">Countries reached</span></div>
+            <div className="stat-block"><span className="num"> 4+</span><span className="lbl">Years coaching</span></div>
           </div>
 
           <div className="hero-ctas">
@@ -543,7 +543,7 @@ export default function App() {
             <div className="feature-item"><Target size={22} /><div className="feature-item-label">Personalized<br /><b>Training Plan</b></div></div>
             <div className="feature-item"><UtensilsCrossed size={22} /><div className="feature-item-label">Custom Nutrition<br /><b>Guidance</b></div></div>
             <div className="feature-item"><TrendingUp size={22} /><div className="feature-item-label">Progress Tracking &<br /><b>Accountability</b></div></div>
-            <div className="feature-item"><MessageCircle size={22} /><div className="feature-item-label">24/7<br /><b>Support</b></div></div>
+            <div className="feature-item"><MessageCircle size={22} /><div className="feature-item-label">  24/7<br /><b>Support</b></div></div>
             <div className="feature-item"><Users size={22} /><div className="feature-item-label">Coached Over<br /><b>150+ Clients</b></div></div>
           </div>
         </div>
