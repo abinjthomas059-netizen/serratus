@@ -279,7 +279,7 @@ export default function App() {
       .mounted .hero-side-card { opacity:1; }
       .hero-side-card .row { display:flex; flex-direction:column; align-items:center; text-align:center; padding:22px 0; border-top:1px solid var(--line); }
       .hero-side-card .row:first-child { border-top:none; }
-      .hero-side-card .row .num { font-family:'Archivo',sans-serif; font-weight:900; font-size:32px; color:var(--gold-bright); }
+      .hero-mark-bg { position:absolute; right:max(56px, calc((100vw - 1400px) / 2 + 40px)); top:50%; transform:translate(30px, -50%); color:var(--gold); opacity:0.10; z-index:0; }
       .hero-side-card .row .lbl { margin-top:6px; font-family:'IBM Plex Mono',monospace; font-size:10.5px; color:var(--bone-dim); text-transform:uppercase; letter-spacing:0.05em; text-align:center; max-width:none; }
       @media (max-width:1180px){ .hero-side-card{ display:none; } }
         .hero-mark-bg { position:absolute; right:-4vw; top:50%; transform:translateY(-50%); color:var(--gold); opacity:0.10; z-index:0; }
