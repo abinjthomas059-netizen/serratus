@@ -533,9 +533,9 @@ export default function App() {
           </p>
 
           <div className="hero-mobile-stats">
-            <div className="stat-block"><span className="num"> 150+</span><span className="lbl">Clients coached</span></div>
-            <div className="stat-block"><span className="num"> 6+</span><span className="lbl">Countries reached</span></div>
-            <div className="stat-block"><span className="num"> 4+</span><span className="lbl">Years coaching</span></div>
+            <div className="stat-block"><span className="num"> 150+</span><span className="lbl">Clients Coached</span></div>
+            <div className="stat-block"><span className="num"> 6+</span><span className="lbl">Countries Sereved</span></div>
+            <div className="stat-block"><span className="num"> 4+</span><span className="lbl">Years Coaching</span></div>
           </div>
 
           <div className="hero-ctas">
@@ -603,8 +603,9 @@ export default function App() {
                 At Serratus, we believe in evidence over trends. Our training is built on exercise science, progressive overload, biomechanics, recovery, and nutrition—then individualized and adapted to you. No gimmicks. Just research-driven coaching and purposeful training.
               </p>
               <div className="credential-row">
-                <div className="credential-chip"><ShieldCheck size={14} /> K11 Certified — Personal Training</div>
-                <div className="credential-chip"><Dumbbell size={14} /> Special Populations (In Progress)</div>
+                <div className="credential-chip"><ShieldCheck size={14} /> Body Recomposition</div>
+                <div className="credential-chip"><ShieldCheck size={14} /> Injury Management</div>
+                <div className="credential-chip"><CheckCircle2 size={14} /> Special Population Training</div>
                 <div className="credential-chip"><CheckCircle2 size={14} /> 4+ Years Coaching</div>
               </div>
             </Reveal>
