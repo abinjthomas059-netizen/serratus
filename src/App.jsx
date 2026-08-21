@@ -163,7 +163,7 @@ const FLAGS = [
   { Flag: FlagCA, n: "Canada" }, { Flag: FlagAU, n: "Australia" }, { Flag: FlagAE, n: "UAE" },
 ];
 
-const GOALS = ["Fat loss", "Muscle building", "Strength & conditioning", "Rehab / special population", "General fitness"];
+const GOALS = ["Fat Loss", "Muscle Building", "Strength & Conditioning", "Rehab / Special Population", "General Fitness"];
 
 export default function App() {
   const [mounted, setMounted] = useState(false);
@@ -631,23 +631,23 @@ export default function App() {
             <div className="approach-grid">
               <div className="approach-card">
                 <div className="approach-icon"><Target size={20} /></div>
-                <div className="approach-title">Personalized programming</div>
-                <p className="approach-text">Every plan is built around your goals, equipment, and starting point — strength, fat loss, or muscle building, never a template.</p>
+                <div className="approach-title">Personalized Programming</div>
+                <p className="approach-text">Every plan is tailored to your goals, equipment, and starting point - whether your focus is strength, fat loss, or muscle building. No templates, just personalized coaching.</p>
               </div>
               <div className="approach-card">
                 <div className="approach-icon"><UtensilsCrossed size={20} /></div>
-                <div className="approach-title">Custom nutrition guidance</div>
-                <p className="approach-text">Nutrition built to support the training, not fight it — practical guidance that fits your routine and adapts as you progress.</p>
+                <div className="approach-title">Custom Nutrition Guidance</div>
+                <p className="approach-text">Nutrition designed to support your training, not work against it — practical guidance that fits your routine and adapts as you progress.</p>
               </div>
               <div className="approach-card">
                 <div className="approach-icon"><ShieldCheck size={20} /></div>
-                <div className="approach-title">Rehab-informed & inclusive</div>
-                <p className="approach-text">Corrective exercise and injury-prevention principles built in from day one — including coaching for obesity, diabetes, and mobility limitations.</p>
+                <div className="approach-title">Rehab-Informed & Inclusive</div>
+                <p className="approach-text">Corrective exercise and injury-prevention principles built in from day one with specialized coaching for clients managing obesity, diabetes, and mobility limitations.</p>
               </div>
               <div className="approach-card">
                 <div className="approach-icon"><TrendingUp size={20} /></div>
-                <div className="approach-title">Tracked & accountable</div>
-                <p className="approach-text">Structured progress tracking and 24/7 support keep training consistent — so results compound instead of stalling out.</p>
+                <div className="approach-title">Tracking & Accountability</div>
+                <p className="approach-text">Structured progress tracking and 24/7 support keep your training consistent - helping your results compound instead of stalling.</p>
               </div>
             </div>
           </Reveal>
@@ -666,9 +666,9 @@ export default function App() {
           <Reveal>
             <div className="steps">
               <div className="step"><div className="step-num">01</div><div className="step-title">Apply</div><div className="step-text">Send your goals, background, and where you're training from — takes two minutes.</div></div>
-              <div className="step"><div className="step-num">02</div><div className="step-title">Free consultation</div><div className="step-text">A short call with Nevin to talk through your goals, constraints, and what a plan for you would look like.</div></div>
-              <div className="step"><div className="step-num">03</div><div className="step-title">Custom plan built</div><div className="step-text">Your training and nutrition plan is built around your equipment, schedule, and starting point.</div></div>
-              <div className="step"><div className="step-num">04</div><div className="step-title">Start training</div><div className="step-text">Train with ongoing check-ins, progress tracking, and 24/7 support as the plan adapts to you.</div></div>
+              <div className="step"><div className="step-num">02</div><div className="step-title">Free Consultation</div><div className="step-text">A short call with Nevin to talk through your goals, constraints, and what a plan for you would look like.</div></div>
+              <div className="step"><div className="step-num">03</div><div className="step-title">Custom Plan Built</div><div className="step-text">Your training and nutrition plan is built around your equipment, schedule, and starting point.</div></div>
+              <div className="step"><div className="step-num">04</div><div className="step-title">Start Training</div><div className="step-text">Train with ongoing check-ins, progress tracking, and 24/7 support as the plan adapts to you.</div></div>
             </div>
           </Reveal>
         </div>
@@ -679,7 +679,7 @@ export default function App() {
         <div className="wrap">
           <Reveal className="section-head">
             <div>
-              <span className="section-num mono"><Mark size={12} /> No cost, no commitment</span>
+              <span className="section-num mono"><Mark size={12} /> No Cost, No Commitment</span>
               <h2 className="section-title display">Book a free consultation</h2>
             </div>
           </Reveal>
@@ -687,13 +687,12 @@ export default function App() {
           <div className="consult-grid">
             <Reveal className="consult-side">
               <p>
-                Every client starts with a free consultation call — a straight conversation about your goals,
-                training history, and constraints before anything is built. No plan goes out until Nevin
-                understands where you're actually starting from.
+                Every client starts with a free consultation call — a straightforward conversation about your goals, training history, and constraints before anything is built. No plan goes out until the trainer understands where you’re actually starting from.
+
               </p>
               <div className="consult-list">
-                <div className="consult-list-item"><CheckCircle2 size={16} /> 100% online — train from anywhere, six countries and counting</div>
-                <div className="consult-list-item"><CheckCircle2 size={16} /> No obligation — the call is free, whether or not you sign up after</div>
+                <div className="consult-list-item"><CheckCircle2 size={16} /> 100% online coaching, from anywhere, serving clients across six countries and counting.</div>
+                <div className="consult-list-item"><CheckCircle2 size={16} /> No obligation - The consultation is completely free, with no obligation to sign up</div>
                 <div className="consult-list-item"><CheckCircle2 size={16} /> Rehab-informed and special-population friendly, if that applies to you</div>
                 <div className="consult-list-item"><CheckCircle2 size={16} /> Usually a reply within 24 hours</div>
               </div>
@@ -742,13 +741,13 @@ export default function App() {
                   </div>
                 </div>
                 <div className="field">
-                  <label>Tell Nevin a bit about you</label>
+                  <label>Tell us a little about yourself.</label>
                   <textarea value={form.message} onChange={e => setForm({ ...form, message: e.target.value })} placeholder="Training background, schedule, anything he should know before the call..." />
                 </div>
                 <button type="submit" className="btn-primary submit-btn" style={{ justifyContent: "center" }}>
                   Request Free Consultation <ArrowRight size={16} />
                 </button>
-                <div className="form-note">Opens your email app with the details filled in — nothing is sent automatically.</div>
+                <div className="form-note">Opens your email app with the details filled in</div>
               </form>
             </Reveal>
           </div>
