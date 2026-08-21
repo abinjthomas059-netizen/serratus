@@ -511,7 +511,7 @@ export default function App() {
         <Mark size={480} className="hero-mark-bg" />
         <div className="hero-side-card">
           <div className="row"><span className="num">150+</span><span className="lbl">Clients coached online</span></div>
-          <div className="row"><span className="num">6</span><span className="lbl">Countries training with Serratus</span></div>
+          <div className="row"><span className="num">6+</span><span className="lbl">Countries training with Serratus</span></div>
           <div className="row"><span className="num">4+</span><span className="lbl">Years coaching experience</span></div>
         </div>
         <div className="wrap hero">
@@ -583,7 +583,7 @@ export default function App() {
           <Reveal className="section-head">
             <div>
               <span className="section-num mono"><Mark size={12} /> Certified Exercise Professional</span>
-              <h2 className="section-title display">The Expertize behind Serratus</h2>
+              <h2 className="section-title display">The Expertise behind Serratus</h2>
             </div>
           </Reveal>
           <div className="founder-grid">
@@ -600,10 +600,7 @@ export default function App() {
                 <strong>Nevin Anto Sony</strong> founded Serratus in 2024 to bring personal, rehab-informed coaching to clients wherever they are and manages the full client lifecycle himself, from onboarding and program design to nutrition guidance and progress tracking, serving clients across six countries.
               </p>
               <p>
-                Certified through <strong>K11 School of Fitness Sciences</strong>, with four years across
-                freelance, full-time, and business-owner coaching roles, including hands-on experience training
-                clients managing obesity, diabetes, and mobility limitations. He's currently completing a
-                <strong> Special Populations Training</strong> certification to sharpen that work further.
+                At Serratus, we believe in evidence over trends. Our training is built on exercise science, progressive overload, biomechanics, recovery, and nutrition—then individualized and adapted to you. No gimmicks. Just research-driven coaching and purposeful training.
               </p>
               <div className="credential-row">
                 <div className="credential-chip"><ShieldCheck size={14} /> K11 Certified — Personal Training</div>
@@ -693,7 +690,7 @@ export default function App() {
           <div className="consult-grid">
             <Reveal className="consult-side">
               <p>
-                Every client starts with a free consultation call — a straightforward conversation about your goals, training history, and constraints before anything is built. No plan goes out until the trainer understands where you’re actually starting from.
+                Every client starts with a free consultation call - a straightforward conversation about your goals, training history, and constraints before anything is built. No plan goes out until the trainer understands where you’re actually starting from.
 
               </p>
               <div className="consult-list">
@@ -707,7 +704,7 @@ export default function App() {
                 <a className="direct-contact" href="mailto:nevinantos363@gmail.com">
                   <Mail size={18} /><span><span className="label">Email</span><span className="value">nevinantos363@gmail.com</span></span>
                 </a>
-                <a className="direct-contact" href="tel:+917356910981">
+                <a className="direct-contact" href="tel:+917356110981">
                   <Phone size={18} /><span><span className="label">Phone / WhatsApp</span><span className="value">+91 73569 10981</span></span>
                 </a>
                 <a className="direct-contact" href="https://instagram.com/serratus.inc" target="_blank" rel="noreferrer">
