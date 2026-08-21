@@ -529,7 +529,7 @@ export default function App() {
           <div className="hero-tagline">Results. <b>Anywhere.</b></div>
           <p className="hero-sub">
             Customized Training | Smart Nutrition | Transformation
-            coached online by certified professionals, wherever you're training from.
+            Online coaching by certified professionals, wherever you're training from
           </p>
 
           <div className="hero-mobile-stats">
