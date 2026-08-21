@@ -517,7 +517,7 @@ export default function App() {
           </h1>
 
           <div className="hero-tagline-highlight">
-            <div className="hero-tagline-quote">Here, distance is <span className="accent-word">not</span> an excuse.</div>
+            <div className="hero-tagline-quote">Here, Distance is <span className="accent-word">not</span> an excuse.</div>
           </div>
 
           <div className="hero-tagline">Results. <b>Anywhere.</b></div>
@@ -542,7 +542,7 @@ export default function App() {
           <div className="feature-strip">
             <div className="feature-item"><Target size={22} /><div className="feature-item-label">Personalized<br /><b>Training Plan</b></div></div>
             <div className="feature-item"><UtensilsCrossed size={22} /><div className="feature-item-label">Custom Nutrition<br /><b>Guidance</b></div></div>
-            <div className="feature-item"><TrendingUp size={22} /><div className="feature-item-label">Progress Tracking<br /><b>& Accountability</b></div></div>
+            <div className="feature-item"><TrendingUp size={22} /><div className="feature-item-label">Progress Tracking &<br /><b>Accountability</b></div></div>
             <div className="feature-item"><MessageCircle size={22} /><div className="feature-item-label">24/7<br /><b>Support</b></div></div>
             <div className="feature-item"><Users size={22} /><div className="feature-item-label">Coached Over<br /><b>150+ Clients</b></div></div>
           </div>
@@ -550,7 +550,7 @@ export default function App() {
 
         <div className="wrap">
           <div className="flag-strip">
-            <span className="flag-label"><Globe2 size={14} /> Online Coaching Worldwide</span>
+            <span className="flag-label"><Globe2 size={14} /> Worldwide Online Coaching</span>
             {FLAGS.map(f => <span className="flag-item" key={f.n}><f.Flag size={20} />{f.n}</span>)}
           </div>
         </div>
@@ -577,7 +577,7 @@ export default function App() {
           <Reveal className="section-head">
             <div>
               <span className="section-num mono"><Mark size={12} /> Certified Exercise Professional</span>
-              <h2 className="section-title display">The coach behind Serratus</h2>
+              <h2 className="section-title display">The Expertize behind Serratus</h2>
             </div>
           </Reveal>
           <div className="founder-grid">
@@ -591,13 +591,11 @@ export default function App() {
             </Reveal>
             <Reveal delay={100} className="founder-copy">
               <p>
-                <strong>Nevin Anto Sony</strong> founded Serratus in 2024 to bring personal, rehab-informed
-                coaching to clients wherever they are — running the full client lifecycle himself: onboarding,
-                program design, nutrition guidance, and progress tracking for clients across six countries.
+                <strong>Nevin Anto Sony</strong> founded Serratus in 2024 to bring personal, rehab-informed coaching to clients wherever they are and manages the full client lifecycle himself, from onboarding and program design to nutrition guidance and progress tracking, serving clients across six countries.
               </p>
               <p>
                 Certified through <strong>K11 School of Fitness Sciences</strong>, with four years across
-                freelance, full-time, and business-owner coaching roles — including hands-on experience training
+                freelance, full-time, and business-owner coaching roles, including hands-on experience training
                 clients managing obesity, diabetes, and mobility limitations. He's currently completing a
                 <strong> Special Populations Training</strong> certification to sharpen that work further.
               </p>
@@ -612,7 +610,7 @@ export default function App() {
           <Reveal delay={60}>
             <div className="stat-grid" style={{ marginTop: 64 }}>
               <div className="stat"><div className="stat-num display"><CountUp to={150} suffix="+" /></div><div className="stat-label">Clients coached</div></div>
-              <div className="stat"><div className="stat-num display"><CountUp to={6} /></div><div className="stat-label">Countries reached</div></div>
+              <div className="stat"><div className="stat-num display"><CountUp to={6} suffix="+" /></div><div className="stat-label">Countries reached</div></div>
               <div className="stat"><div className="stat-num display"><CountUp to={4} suffix="+" /></div><div className="stat-label">Years of coaching</div></div>
               <div className="stat"><div className="stat-num display"><CountUp to={24} /><span style={{ fontSize: "0.5em" }}>/7</span></div><div className="stat-label">Support available</div></div>
             </div>
