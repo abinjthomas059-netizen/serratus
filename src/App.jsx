@@ -535,7 +535,7 @@ export default function App() {
           <div className="hero-mobile-stats">
             <div className="stat-block"><span className="num"> 150+</span><span className="lbl">Clients Coached</span></div>
             <div className="stat-block"><span className="num"> 6+</span><span className="lbl">Countries Sereved</span></div>
-            <div className="stat-block"><span className="num"> 4+</span><span className="lbl">Years Coaching</span></div>
+            <div className="stat-block"><span className="num"> 4+</span><span className="lbl">Years of Coaching</span></div>
           </div>
 
           <div className="hero-ctas">
@@ -765,7 +765,7 @@ export default function App() {
             <a href="tel:+917356910981">Phone</a>
             <a href="https://instagram.com/serratus.inc" target="_blank" rel="noreferrer">Instagram</a>
           </div>
-          <div className="footer-copy">© {new Date().getFullYear()} Serratus · Kottayam, Kerala</div>
+          <div className="footer-copy">© {new Date().getFullYear()} Serratus </div>
         </footer>
       </div>
     </div>
