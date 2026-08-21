@@ -425,9 +425,12 @@ export default function App() {
         .approach-text { color:var(--bone-dim); font-size:14px; line-height:1.6; }
 
         /* stats */
-        .stat-grid { display:grid; grid-template-columns:repeat(4,1fr); border-top:1px solid var(--line); }
+        .stat-grid { display:grid; grid-template-columns:repeat(4,1fr); border-top:1px solid var(--line); border-left:1px solid var(--line); }
         @media (max-width:720px){ .stat-grid{ grid-template-columns:repeat(2,1fr); } }
-        .stat { padding:26px 20px 0 0; border-right:1px solid var(--line); }
+        .stat { padding:26px 20px 20px 20px; border-right:1px solid var(--line); border-bottom:1px solid var(--line); }
+        .stat:nth-child(4n) { border-right:none; }
+        @media (max-width:720px){ .stat:nth-child(2n){ border-right:none; } .stat:nth-child(4n){ border-right:1px solid var(--line); } }
+        
         .stat:last-child { border-right:none; }
         .stat-num { font-family:'Archivo',sans-serif; font-weight:900; font-size:clamp(32px,4.4vw,50px); color:var(--gold-bright); }
         .stat-label { margin-top:8px; font-family:'IBM Plex Mono',monospace; font-size:11.5px; color:var(--bone-dim); text-transform:uppercase; letter-spacing:0.05em; }
