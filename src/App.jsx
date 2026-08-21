@@ -528,8 +528,8 @@ export default function App() {
 
           <div className="hero-tagline">Results. <b>Anywhere.</b></div>
           <p className="hero-sub">
-            Customized training, smart nutrition, and real transformation — coached online by Nevin Anto Sony,
-            a certified exercise professional, wherever you're training from.
+            Customized Training | Smart Nutrition | Transformation
+            coached online by certified professionals, wherever you're training from.
           </p>
 
           <div className="hero-mobile-stats">
