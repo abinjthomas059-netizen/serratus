@@ -281,9 +281,7 @@ export default function App() {
       .hero-side-card .row:first-child { border-top:none; }
       .hero-mark-bg { position:absolute; right:max(56px, calc((100vw - 1400px) / 2 + 40px)); top:50%; transform:translate(30px, -50%); color:var(--gold); opacity:0.10; z-index:0; }
       .hero-side-card .row .lbl { margin-top:6px; font-family:'IBM Plex Mono',monospace; font-size:10.5px; color:var(--bone-dim); text-transform:uppercase; letter-spacing:0.05em; text-align:center; max-width:none; }
-      @media (max-width:1180px){ .hero-side-card{ display:none; } }
-        .hero-mark-bg { position:absolute; right:-4vw; top:50%; transform:translateY(-50%); color:var(--gold); opacity:0.10; z-index:0; }
-
+       @media (max-width:1180px){ .hero-side-card{ display:none; } }
         /* mobile replacement for the side card — inline stat strip instead of a floating panel */
         .hero-mobile-stats { display:none; }
         @media (max-width:1180px){
@@ -355,7 +353,7 @@ export default function App() {
         .btn-ghost:hover { border-color:var(--gold); transform:translateY(-2px); }
 
         /* feature strip */
-        feature-strip { margin-top:72px; display:grid; grid-template-columns:repeat(5,1fr); border-top:1px solid var(--line); border-bottom:1px solid var(--line); opacity:0; transform:translateY(16px); transition:opacity .8s ease .68s, transform .8s ease .68s; }
+        .feature-strip { margin-top:72px; display:grid; grid-template-columns:repeat(5,1fr); border-top:1px solid var(--line); border-bottom:1px solid var(--line); opacity:0; transform:translateY(16px); transition:opacity .8s ease .68s, transform .8s ease .68s; }
         .mounted .feature-strip { opacity:1; transform:translateY(0); }
         @media (max-width:900px){ .feature-strip{ grid-template-columns:repeat(2,1fr); } }
         .feature-item { padding:22px 14px 0 0; border-right:1px solid var(--line); }
