@@ -269,7 +269,7 @@ export default function App() {
         .hero { min-height:100vh; display:flex; flex-direction:column; justify-content:center; padding-top:120px; padding-bottom:60px; position:relative; }
         @media (max-width:640px){ .hero{ justify-content:flex-start; padding-top:96px; } }
         .hero-side-card {
-       position:absolute; right:max(56px, calc((100vw - 1400px) / 2 + 40px)); top:50%; transform:translateY(-100px, -50%);
+       position:absolute; right:max(56px, calc((100vw - 1400px) / 2 + 40px)); top:50%; transform:translate(-90px, -50%);
        width:240px; background:linear-gradient(160deg, var(--surface), rgba(0,0,0,0.4));
        border:1px solid var(--line); border-radius:18px;
        padding:8px 28px; z-index:1; opacity:0;
@@ -356,7 +356,7 @@ export default function App() {
         .feature-strip { margin-top:72px; display:grid; grid-template-columns:repeat(5,1fr); border-top:1px solid var(--line); border-bottom:1px solid var(--line); opacity:0; transform:translateY(16px); transition:opacity .8s ease .68s, transform .8s ease .68s; }
         .mounted .feature-strip { opacity:1; transform:translateY(0); }
         @media (max-width:900px){ .feature-strip{ grid-template-columns:repeat(2,1fr); } }
-        .feature-item { padding:22px 14px 0 0; border-right:1px solid var(--line); }
+        .feature-item { padding:22px 14px; border-right:1px solid var(--line); }
         .feature-item:last-child { border-right:none; }
         .feature-item svg { color:var(--gold-bright); margin-bottom:12px; }
         .feature-item-label { font-family:'IBM Plex Mono',monospace; font-size:11.5px; color:var(--bone-dim); text-transform:uppercase; letter-spacing:0.04em; line-height:1.5; }
