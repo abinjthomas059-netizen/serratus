@@ -269,7 +269,7 @@ export default function App() {
         .hero { min-height:100vh; display:flex; flex-direction:column; justify-content:center; padding-top:120px; padding-bottom:60px; position:relative; }
         @media (max-width:640px){ .hero{ justify-content:flex-start; padding-top:96px; } }
         .hero-side-card {
-       position:absolute; right:max(56px, calc((100vw - 1400px) / 2 + 40px)); top:50%; transform:translate(-90px, -50%);
+       position:absolute; right:max(56px, calc((100vw - 1400px) / 2 + 40px)); top:50%; transform:translate(-90px, -106%);
        width:240px; background:linear-gradient(160deg, var(--surface), rgba(0,0,0,0.4));
        border:1px solid var(--line); border-radius:18px;
        padding:8px 28px; z-index:1; opacity:0;
@@ -279,7 +279,7 @@ export default function App() {
       .mounted .hero-side-card { opacity:1; }
       .hero-side-card .row { display:flex; flex-direction:column; align-items:center; text-align:center; padding:22px 0; border-top:1px solid var(--line); }
       .hero-side-card .row:first-child { border-top:none; }
-      .hero-mark-bg { position:absolute; right:max(56px, calc((100vw - 1400px) / 2 + 40px)); top:50%; transform:translate(30px, -50%); color:var(--gold); opacity:0.10; z-index:0; }
+      .hero-mark-bg { position:absolute; right:max(56px, calc((100vw - 1400px) / 2 + 40px)); top:50%; transform:translate(30px, -83%); color:var(--gold); opacity:0.10; z-index:0; }
       .hero-side-card .row .lbl { margin-top:6px; font-family:'IBM Plex Mono',monospace; font-size:10.5px; color:var(--bone-dim); text-transform:uppercase; letter-spacing:0.05em; text-align:center; max-width:none; }
        @media (max-width:1180px){ .hero-side-card{ display:none; } }
         /* mobile replacement for the side card — inline stat strip instead of a floating panel */
