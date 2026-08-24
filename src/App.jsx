@@ -412,7 +412,7 @@ const coachPhotos = [coachPhoto1, coachPhoto2];
         .shared-copy p { margin:0; }
         .founder-plate { aspect-ratio:4/5; border-radius:18px; background:linear-gradient(155deg, var(--surface-hi), var(--surface) 60%, var(--ink)); border:1px solid var(--line); display:flex; align-items:center; justify-content:center; position:relative; overflow:hidden; }
         @media (max-width:480px){ .founder-plate{ aspect-ratio:1/1; } }
-        .founder-photo { position:absolute; inset:0; width:100%; height:100%; object-fit:cover; object-position:center 25%; z-index:0; }
+        .founder-photo { position:relative; inset:0; width:100%; height:100%; object-fit:cover; object-position:center 25%; z-index:0; }
         .founder-plate::before { content:""; position:absolute; inset:0; background:linear-gradient(to top, rgba(10,10,10,0.88) 0%, rgba(10,10,10,0.25) 42%, transparent 62%); z-index:1; }
         .founder-plate .Mark { color:var(--gold); opacity:0.5; }
         .founder-plate .Mark.corner-mark { position:absolute; top:16px; right:16px; z-index:2; opacity:0.85; }
