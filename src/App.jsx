@@ -433,7 +433,7 @@ const coachPhotos = [coachPhoto1, coachPhoto2];
         @media (max-width:560px){ .approach-grid{ grid-template-columns:1fr; } }
 
         /* mission & vision */
-        .mv-grid { display:grid; grid-template-columns:1fr 1fr; gap:1px; background:var(--line); border:1px solid var(--line); margin-top:32px; }
+        .mv-grid { display:grid; grid-template-columns:1fr 1fr; gap:1px; border:1px solid var(--line); margin-top:32px; }
         @media (max-width:760px){ .mv-grid{ grid-template-columns:1fr; } }
         .mv-card { background:var(--bg); padding:32px; }
         .mv-card h3 { font-family:'Archivo',sans-serif; font-weight:800; font-size:14px; text-transform:uppercase; letter-spacing:0.06em; color:var(--gold-bright); margin-bottom:18px; }
@@ -639,7 +639,7 @@ const coachPhotos = [coachPhoto1, coachPhoto2];
 
           <Reveal delay={140} className="founder-copy shared-copy">
             <p>
-              At Serratus, we believe in evidence over trends. Our training is built on exercise science, progressive overload, biomechanics, recovery, and nutrition—then individualized and adapted to you. No gimmicks. Just research-driven coaching and purposeful training.
+              At Serratus, we believe in evidence over trends. Our training is built on exercise science, progressive overload, biomechanics, recovery, and nutrition. No gimmicks. Just research-driven coaching and purposeful training.
             </p>
           </Reveal>
 
