@@ -208,7 +208,7 @@ const coachPhotos = [coachPhoto1, coachPhoto2];
     const body = encodeURIComponent(
       `Name: ${form.name}\nEmail: ${form.email}\nWhatsApp: ${form.whatsapp}\nGoal: ${form.goal}\nMessage: ${form.message}`
     );
-    window.open(`mailto:nevinantos363@gmail.com?subject=${encodeURIComponent("Free Consultation Request — " + form.name)}&body=${body}`, "_blank");
+    window.open(`mailto:incserratus@gmail.com?subject=${encodeURIComponent("Free Consultation Request — " + form.name)}&body=${body}`, "_blank");
   };
 
   return (
@@ -774,8 +774,8 @@ const coachPhotos = [coachPhoto1, coachPhoto2];
               </div>
 
               <div className="direct-contacts">
-                <a className="direct-contact" href="mailto:nevinantos363@gmail.com">
-                  <Mail size={18} /><span><span className="label">Email</span><span className="value">nevinantos363@gmail.com</span></span>
+                <a className="direct-contact" href="mailto:incserratus@gmail.com">
+                  <Mail size={18} /><span><span className="label">Email</span><span className="value">incserratus@gmail.com</span></span>
                 </a>
                 <a className="direct-contact" href="tel:+91 7356110981">
                   <Phone size={18} /><span><span className="label">Phone / WhatsApp</span><span className="value">+91 73561 10981</span></span>
@@ -834,7 +834,7 @@ const coachPhotos = [coachPhoto1, coachPhoto2];
         <footer>
           <div className="footer-brand"><Mark size={20} /><span className="brand-word">SERRATUS</span></div>
           <div className="footer-links">
-            <a href="mailto:nevinantos363@gmail.com">Email</a>
+            <a href="mailto:incserratus@gmail.com">Email</a>
             <a href="tel:+917356910981">Phone</a>
             <a href="https://instagram.com/serratus.inc" target="_blank" rel="noreferrer">Instagram</a>
           </div>
