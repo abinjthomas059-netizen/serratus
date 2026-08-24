@@ -162,7 +162,6 @@ const NAV_LINKS = [
 const FLAGS = [
   { Flag: FlagIN, n: "India" }, { Flag: FlagUS, n: "USA" }, { Flag: FlagGB, n: "UK" },
   { Flag: FlagCA, n: "Canada" }, { Flag: FlagAU, n: "Australia" }, { Flag: FlagAE, n: "UAE" },
-  { Flag: FlagNZ, n: "New Zealand" },
   
 ];
 
