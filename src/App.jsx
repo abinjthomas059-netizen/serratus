@@ -744,7 +744,7 @@ const coachPhotos = [coachPhoto1, coachPhoto2];
 
           <div className="hero-mobile-stats">
             <div className="stat-block"><span className="num"> 150+</span><span className="lbl">Clients Coached</span></div>
-            <div className="stat-block"><span className="num"> 6+</span><span className="lbl">Countries Sereved</span></div>
+            <div className="stat-block"><span className="num"> 6+</span><span className="lbl">Countries Served</span></div>
             <div className="stat-block"><span className="num"> 4+</span><span className="lbl">Years of Coaching</span></div>
           </div>
 
